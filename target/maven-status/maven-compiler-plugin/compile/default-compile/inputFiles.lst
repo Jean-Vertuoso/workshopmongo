@@ -7,5 +7,6 @@ C:\Users\Jean Vertuoso\Documents\Backups\Devmedia\Backend\Java\workshopmongo\src
 C:\Users\Jean Vertuoso\Documents\Backups\Devmedia\Backend\Java\workshopmongo\src\main\java\com\devsuperior\workshopmongo\models\entities\User.java
 C:\Users\Jean Vertuoso\Documents\Backups\Devmedia\Backend\Java\workshopmongo\src\main\java\com\devsuperior\workshopmongo\repositories\PostRepository.java
 C:\Users\Jean Vertuoso\Documents\Backups\Devmedia\Backend\Java\workshopmongo\src\main\java\com\devsuperior\workshopmongo\repositories\UserRepository.java
+C:\Users\Jean Vertuoso\Documents\Backups\Devmedia\Backend\Java\workshopmongo\src\main\java\com\devsuperior\workshopmongo\services\exceptions\ResourceNotFoundException.java
 C:\Users\Jean Vertuoso\Documents\Backups\Devmedia\Backend\Java\workshopmongo\src\main\java\com\devsuperior\workshopmongo\services\UserService.java
 C:\Users\Jean Vertuoso\Documents\Backups\Devmedia\Backend\Java\workshopmongo\src\main\java\com\devsuperior\workshopmongo\WorkshopmongoApplication.java
