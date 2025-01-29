@@ -1,4 +1,7 @@
-com\devsuperior\workshopmongo\application\WorkshopmongoApplication.class
-com\devsuperior\workshopmongo\config\TestConfig.class
+com\devsuperior\workshopmongo\models\embedded\Author.class
+com\devsuperior\workshopmongo\models\embedded\Comment.class
 com\devsuperior\workshopmongo\models\entities\User.class
+com\devsuperior\workshopmongo\models\entities\Post.class
+com\devsuperior\workshopmongo\config\TestConfig.class
+com\devsuperior\workshopmongo\repositories\PostRepository.class
 com\devsuperior\workshopmongo\repositories\UserRepository.class
