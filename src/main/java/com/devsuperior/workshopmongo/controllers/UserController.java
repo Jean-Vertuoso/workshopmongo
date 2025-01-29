@@ -3,6 +3,7 @@ package com.devsuperior.workshopmongo.controllers;
 import java.net.URI;
 import java.util.List;
 
+import com.devsuperior.workshopmongo.models.dto.PostDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -52,5 +53,11 @@ public class UserController {
     public ResponseEntity<UserDTO> delete(@PathVariable String id){
         service.delete(id);
         return ResponseEntity.noContent().build();
+    }
+
+    @GetMapping(value = "/{id}/posts")
+    public ResponseEntity<List<PostDTO>> getUserPosts(@PathVariable String id){
+        List<PostDTO> list = service.getUserPosts(id);
+        return ResponseEntity.ok().body(list);
     }
 }
